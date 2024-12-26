@@ -26,7 +26,7 @@ export default function ChatWindow({ selectedSubject }) {
       </h2>
 
       {/* Scrollable Content */}
-      <div className="space-y-4 overflow-y-auto flex-1 px-4 py-2 bg-gray-800">
+      <div className="space-y-4 overflow-y-auto flex-1 px-4 py-2">
         {filteredMessages.map((email) => (
           <EmailCard key={email.id} email={email} />
         ))}
