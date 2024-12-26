@@ -1,0 +1,6 @@
+{
+  "groups": [
+    { "id": "1", "subject": "a title" },
+    { "id": "2", "subject": "another title" }
+  ]
+}
