@@ -1,5 +1,6 @@
-import React from "react"
+import Conversations from "@/app/components/Conversations";
 
-export default function page() {
-	return <div>djkhsldfjghsjfh</div>
+export default async function Page({ params }) {
+  const id = (await params).id;
+  return <Conversations id={id} />;
 }

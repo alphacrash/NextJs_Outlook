@@ -2,5 +2,37 @@
   "groups": [
     { "id": "1", "subject": "a title" },
     { "id": "2", "subject": "another title" }
+  ],
+  "chats": [
+    {
+      "id": "1",
+      "subject": "Software Engineer Application",
+      "conversations": [
+        {
+          "account_id": "acc456",
+          "created": "2024-03-08 12:00:00.000Z",
+          "date": "2024-03-08 11:55:00.000Z",
+          "from": "hr1@company.com",
+          "from_name": "HR Department",
+          "id": "msg1",
+          "message_id": "hr_msg1",
+          "snippet": "Hello, we've received your application for the Software Engineer role.",
+          "subject": "Software Engineer Application",
+          "updated": "2024-03-08 12:00:00.000Z"
+        },
+        {
+          "account_id": "acc456",
+          "created": "2024-03-08 12:10:00.000Z",
+          "date": "2024-03-08 12:05:00.000Z",
+          "from": "candidate1@example.com",
+          "from_name": "Candidate One",
+          "id": "msg2",
+          "message_id": "cand_msg1",
+          "snippet": "Thank you for the confirmation.",
+          "subject": "Software Engineer Application",
+          "updated": "2024-03-08 12:10:00.000Z"
+        }
+      ]
+    }
   ]
 }
