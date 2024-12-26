@@ -1,4 +1,4 @@
-import { NextUIProvider } from "@nextui-org/react";
+import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata = {
@@ -8,11 +8,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <NextUIProvider>{children}</NextUIProvider>
+    <html lang="en" className="dark">
+      <body>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
