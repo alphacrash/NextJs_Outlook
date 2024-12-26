@@ -1,12 +1,7 @@
-import AppNavbar from "./components/AppNavbar";
+import AppNavbar from "../components/AppNavbar"
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <AppNavbar />
-      {children}
-    </>
-  );
-};
+	return <>{children}</>
+}
 
-export default Layout;
+export default Layout
