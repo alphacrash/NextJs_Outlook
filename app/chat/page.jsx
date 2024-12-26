@@ -1,5 +1,9 @@
-const Page = () => {
-  return <>Page</>;
-};
+const Chat = () => {
+	return (
+		<>
+			<h2>Open a conversation.</h2>
+		</>
+	)
+}
 
-export default Page;
+export default Chat
