@@ -1,21 +1,19 @@
 {
-  "name": "nextjs_outlook",
+  "name": "chat-email-interface",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@nextui-org/react": "^2.6.10",
-    "axios": "^1.7.9",
     "framer-motion": "^11.15.0",
-    "json-server": "^1.0.0-beta.3",
     "next": "15.1.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
