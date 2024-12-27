@@ -21,7 +21,7 @@ export default function ChatWindow({ selectedSubject }) {
   return (
     <div className="flex flex-col h-full">
       {/* Fixed Header */}
-      <h2 className="text-lg font-bold text-white-500 sticky top-0 z-50 bg-black py-5">
+      <h2 className="text-lg font-bold text-white-500 sticky top-0 z-2 bg-black py-5">
         {filteredMessages[0]?.subject}
       </h2>
 

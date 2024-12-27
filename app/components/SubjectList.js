@@ -72,6 +72,7 @@ export default function SubjectList({ setSelectedSubject }) {
               <DropdownItem
                 key={subject.account_id}
                 onPress={() => handleSelect(subject)}
+                description={subject.from}  
               >
                 {subject.subject}
               </DropdownItem>
